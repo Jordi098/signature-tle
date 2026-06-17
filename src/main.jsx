@@ -7,11 +7,20 @@ const chapters = [
     id: 'tle-3',
     number: 'TLE 3',
     title: 'TLE 3 - Het woud van verhalen en waarden',
-    atmosphere: 'Bosachtig, onderzoekend en mysterieus',
+    atmosphere: 'Bosachtig, technisch en onderzoekend',
     tone: 'forest',
     intro:
-      'De reis begint tussen hoge bomen, zachte mist en kleine tekens langs het pad. In TLE 3 leerde ik beter luisteren, kijken en samenwerken door verhalen visueel te maken en waarden zichtbaar te bespreken.',
+      'De reis begint tussen hoge bomen, zachte mist en kleine tekens langs het pad. Tijdens TLE 3 werkten we aan één casus voor de gemeente. Binnen dit project was ik verantwoordelijk voor het maken van één backend die door twee verschillende frontendteams gebruikt werd.',
+    contextTitle: 'Context van het project',
+    context:
+      'Daardoor moest ik rekening houden met de wensen van meerdere teams en zorgen dat de backend duidelijk, betrouwbaar en goed bruikbaar was. Ik leerde hierdoor niet alleen meer over backendontwikkeling, maar ook over afstemmen, samenwerken en verantwoordelijkheid nemen binnen een groter project.',
     methods: [
+      {
+        icon: 'server',
+        title: 'Backend voor twee frontendteams',
+        text:
+          'Ik moest één backend bouwen die door twee frontendteams gebruikt werd. Dat vroeg om duidelijke endpoints, betrouwbare afspraken en goed contact met de teams die de backend nodig hadden. Hierdoor werd backendontwikkeling voor mij niet alleen technisch, maar ook een samenwerkingstaak.'
+      },
       {
         icon: 'sketch',
         title: 'Metaforen tekenen tijdens interviews',
@@ -27,17 +36,20 @@ const chapters = [
     ],
     reflectionTitle: 'Wat ik leerde in TLE 3',
     reflection:
-      'In TLE 3 ontdekte ik dat onderzoek niet alleen bestaat uit luisteren en informatie opschrijven. Door metaforen te tekenen kreeg ik een duidelijker beeld van wat iemand bedoelde. Met Make Me Think leerde ik dat iedereen vanuit andere waarden naar een probleem kijkt. Hierdoor ben ik bewuster gaan luisteren en samenwerken.',
-    visualNotes: ['Schetsboek', 'Gedachtenwolken', 'Kompas', 'Waarden-symbolen']
+      'In TLE 3 ontdekte ik dat onderzoek en techniek allebei vragen om duidelijke communicatie. Door metaforen te tekenen kreeg ik een duidelijker beeld van wat iemand bedoelde. Met Make Me Think leerde ik dat iedereen vanuit andere waarden naar een probleem kijkt. Door de backend voor twee frontendteams te bouwen, leerde ik hoe belangrijk afstemming, betrouwbaarheid en verantwoordelijkheid zijn binnen een groter project.',
+    visualNotes: ['Gemeentecasus', 'Backend', 'API-afspraken', 'Schetsboek', 'Waarden-symbolen']
   },
   {
     id: 'tle-4',
     number: 'TLE 4',
     title: 'TLE 4 - De vallei van waarde en ondernemerschap',
-    atmosphere: 'Opbouwend, concreet en ondernemend',
+    atmosphere: 'Opbouwend, sociaal en ondernemend',
     tone: 'valley',
     intro:
-      'Het pad opent zich naar een vallei waar ideeën worden getest, aangepast en opgebouwd. In TLE 4 kreeg ik meer grip op waarde, ondernemerschap en de redenen achter keuzes van gebruikers.',
+      'Het pad opent zich naar een vallei waar ideeën worden getest, aangepast en opgebouwd. Tijdens TLE 4 moesten we als team een startup opzetten. Ons product was een sociale meetup-app voor studenten en jongvolwassenen.',
+    contextTitle: 'Context van de startup',
+    context:
+      'De app koppelt mensen met gedeelde interesses aan elkaar. Na een match ontstaat een groep die samen een route volgt langs cafés, bars of culturele locaties. Tijdens deze route zien alle deelnemers dezelfde stops, timers en conversation starters. Deelnemers kunnen onderweg foto’s maken die later per groep terugkomen op hun profiel als gezamenlijke herinneringen. Het doel is om nieuwe mensen ontmoeten laagdrempeliger, minder ongemakkelijk en leuker te maken.',
     methods: [
       {
         icon: 'blueprint',
@@ -49,13 +61,19 @@ const chapters = [
         icon: 'lens',
         title: 'Jobs to Be Done',
         text:
-          'Ik begrijp nu beter wat Jobs to Be Done betekent. De methode gaat over wat een doelgroep echt probeert te bereiken. Het kijkt niet alleen naar wat een gebruiker doet, maar vooral naar de reden erachter. Ik wil Jobs to Be Done toevoegen aan mijn professionele toolkit. Ik kan deze methode gebruiken om beter te begrijpen wat de doelen, behoeften en motivaties van een doelgroep zijn. Ik heb geleerd dat sommige jobs elkaar kunnen overlappen. Daarom is het belangrijk om hoofdjobs en kleinere subjobs van elkaar te onderscheiden.'
+          'Ik begrijp nu beter wat Jobs to Be Done betekent. De methode gaat over wat een doelgroep echt probeert te bereiken. Bij onze meetup-app ging het niet alleen om een route volgen, maar vooral om nieuwe mensen ontmoeten zonder dat het ongemakkelijk voelt. Ik wil Jobs to Be Done toevoegen aan mijn professionele toolkit, omdat het helpt om doelen, behoeften en motivaties van een doelgroep beter te begrijpen. Ik heb geleerd dat sommige jobs elkaar kunnen overlappen. Daarom is het belangrijk om hoofdjobs en kleinere subjobs van elkaar te onderscheiden.'
       },
       {
         icon: 'crystal',
         title: 'Waardepropositie',
         text:
-          'Door met de waardepropositie te werken kreeg ik steeds meer inzicht in hoe je een behoefte vertaalt naar waarde voor een gebruiker. Ik leerde voor wie een oplossing bedoeld is, welk probleem je oplost en waarom iemand voor een bepaalde oplossing zou kiezen. De waardepropositie hielp mij om de verbinding te maken tussen de behoefte van de doelgroep en onze oplossing.'
+          'Door met de waardepropositie te werken kreeg ik steeds meer inzicht in hoe je een behoefte vertaalt naar waarde voor een gebruiker. Voor onze app ging dat over studenten en jongvolwassenen die makkelijker nieuwe mensen willen ontmoeten. Ik leerde voor wie een oplossing bedoeld is, welk probleem je oplost en waarom iemand voor een bepaalde oplossing zou kiezen. De waardepropositie hielp mij om de verbinding te maken tussen de behoefte van de doelgroep en onze oplossing.'
+      },
+      {
+        icon: 'route',
+        title: 'Route, groep en herinneringen',
+        text:
+          'Het productconcept werd concreter door de route-ervaring uit te werken: gedeelde stops, timers, conversation starters en foto’s die later als gezamenlijke herinneringen terugkomen op het groepsprofiel. Daardoor zag ik beter hoe interactie, sfeer en productwaarde samenkomen in één ervaring.'
       },
       {
         icon: 'book',
@@ -67,7 +85,7 @@ const chapters = [
     reflectionTitle: 'Wat ik leerde in TLE 4',
     reflection:
       'In TLE 4 leerde ik dat nieuwe methodes niet meteen duidelijk hoeven te zijn. Door ze meerdere keren toe te passen, feedback te gebruiken en onderdelen opnieuw uit te werken, kreeg ik steeds meer grip op het businessmodel, Jobs to Be Done en de waardepropositie. Ik begrijp nu beter hoe je een behoefte van een doelgroep kunt vertalen naar een passende en waardevolle oplossing.',
-    visualNotes: ['Blauwdruk', 'Drie versies', 'Vergrootglas', 'Kristal', 'Boek']
+    visualNotes: ['Startup', 'Meetup-route', 'Timers', 'Conversation starters', 'Fotoherinneringen']
   }
 ]
 
@@ -106,6 +124,12 @@ function MethodIcon({ type }) {
         <path d="M45 22v8M45 60v8M22 45h8M60 45h8M39 51l6-22 6 22-6 10z" />
       </>
     ),
+    server: (
+      <>
+        <path d="M18 22h54v18H18zM18 50h54v18H18z" />
+        <path d="M28 31h3M38 31h22M28 59h3M38 59h22M45 40v10" />
+      </>
+    ),
     blueprint: (
       <>
         <path d="M16 22h58v46H16z" />
@@ -122,6 +146,14 @@ function MethodIcon({ type }) {
       <>
         <path d="M45 12l25 30-25 38-25-38z" />
         <path d="M20 42h50M45 12v68M31 42l14 38 14-38" />
+      </>
+    ),
+    route: (
+      <>
+        <path d="M20 65c12-24 33-4 39-24 4-14-9-18-1-28 5-6 14-5 19 1" />
+        <circle cx="20" cy="65" r="5" />
+        <circle cx="77" cy="14" r="5" />
+        <path d="M34 48h12M58 28h12" />
       </>
     ),
     book: (
@@ -149,6 +181,10 @@ function Chapter({ chapter, index }) {
         <p className="kicker">{chapter.atmosphere}</p>
         <h2 id={`${chapter.id}-title`}>{chapter.title}</h2>
         <p className="chapter-intro">{chapter.intro}</p>
+        <aside className="context-card">
+          <h3>{chapter.contextTitle}</h3>
+          <p>{chapter.context}</p>
+        </aside>
 
         <div className="method-grid">
           {chapter.methods.map((method) => (
@@ -212,13 +248,13 @@ function App() {
           <article>
             <h3>Mijn groei als professional</h3>
             <p>
-              Tijdens TLE 3 en TLE 4 heb ik geleerd om nieuwe methodes uit te proberen, ook wanneer ik ze nog niet volledig begrijp. Ik ben visueler gaan onderzoeken, bewuster gaan samenwerken en beter gaan kijken naar de behoeften van gebruikers. Mijn toolkit is uitgebreid met metaforen tekenen, Make Me Think, het businessmodel, Jobs to Be Done en de waardepropositie.
+              Tijdens TLE 3 en TLE 4 heb ik geleerd om nieuwe methodes uit te proberen, ook wanneer ik ze nog niet volledig begrijp. Ik ben visueler gaan onderzoeken, bewuster gaan samenwerken, verantwoordelijker gaan bouwen en beter gaan kijken naar de behoeften van gebruikers. Mijn toolkit is uitgebreid met metaforen tekenen, Make Me Think, backendafstemming, het businessmodel, Jobs to Be Done en de waardepropositie.
             </p>
           </article>
           <article>
             <h3>Wat ik anders zou doen</h3>
             <p>
-              Bij een volgend project zou ik mijn ontwikkeling eerder en beter vastleggen. Na iedere methode zou ik kort opschrijven wat ik heb gedaan, wat het resultaat was en wat ik de volgende keer anders wil doen. Ook zou ik meer bewijsmateriaal verzamelen, zoals tekeningen, feedback en verschillende versies van mijn werk.
+              Bij een volgend project zou ik mijn ontwikkeling eerder en beter vastleggen. Na iedere methode of technische mijlpaal zou ik kort opschrijven wat ik heb gedaan, wat het resultaat was en wat ik de volgende keer anders wil doen. Ook zou ik meer bewijsmateriaal verzamelen, zoals tekeningen, feedback, API-afspraken en verschillende versies van mijn werk.
             </p>
           </article>
         </div>

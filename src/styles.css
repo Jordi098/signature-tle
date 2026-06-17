@@ -289,6 +289,7 @@ h2 {
 }
 
 .method-card h3,
+.context-card h3,
 .reflection h3,
 .summit h3 {
   margin-bottom: 8px;
@@ -297,10 +298,32 @@ h2 {
 }
 
 .method-card p,
+.context-card p,
 .reflection p,
 .summit p {
   margin-bottom: 0;
   font-size: 0.95rem;
+}
+
+.context-card {
+  position: relative;
+  max-width: 76ch;
+  margin: 0 0 22px;
+  padding: 18px 20px;
+  border: 1px solid rgba(255, 250, 240, 0.22);
+  border-radius: 8px;
+  background: rgba(255, 250, 240, 0.12);
+  backdrop-filter: blur(10px);
+}
+
+.forest .context-card h3,
+.forest .context-card p {
+  color: var(--paper-light);
+}
+
+.valley .context-card {
+  border-color: rgba(29, 36, 48, 0.12);
+  background: rgba(255, 255, 255, 0.68);
 }
 
 .method-icon {
@@ -599,6 +622,8 @@ blockquote {
   .forest h2,
   .forest h3,
   .forest .chapter-intro,
+  .forest .context-card h3,
+  .forest .context-card p,
   .forest .method-card p,
   .forest .reflection p,
   .summit h3,
@@ -614,6 +639,7 @@ blockquote {
   }
 
   .method-card,
+  .context-card,
   .reflection {
     background: #fff !important;
     border-color: #bbb;
