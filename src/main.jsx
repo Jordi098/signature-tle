@@ -37,7 +37,7 @@ const chapters = [
     reflectionTitle: 'Wat ik leerde in TLE 3',
     reflection:
       'In TLE 3 ontdekte ik dat onderzoek en techniek allebei vragen om duidelijke communicatie. Door metaforen te tekenen kreeg ik een duidelijker beeld van wat iemand bedoelde. Met Make Me Think leerde ik dat iedereen vanuit andere waarden naar een probleem kijkt. Door de backend voor twee frontendteams te bouwen, leerde ik hoe belangrijk afstemming, betrouwbaarheid en verantwoordelijkheid zijn binnen een groter project.',
-    visualNotes: ['Gemeentecasus', 'Backend', 'API-afspraken', 'Schetsboek', 'Waarden-symbolen']
+    visualNotes: ['Gemeentecasus', 'Backend', 'Schetsboek', 'Waarden-symbolen']
   },
   {
     id: 'tle-4',
@@ -68,12 +68,6 @@ const chapters = [
         title: 'Waardepropositie',
         text:
           'Door met de waardepropositie te werken kreeg ik steeds meer inzicht in hoe je een behoefte vertaalt naar waarde voor een gebruiker. Voor onze app ging dat over studenten en jongvolwassenen die makkelijker nieuwe mensen willen ontmoeten. Ik leerde voor wie een oplossing bedoeld is, welk probleem je oplost en waarom iemand voor een bepaalde oplossing zou kiezen. De waardepropositie hielp mij om de verbinding te maken tussen de behoefte van de doelgroep en onze oplossing.'
-      },
-      {
-        icon: 'route',
-        title: 'Route, groep en herinneringen',
-        text:
-          'Het productconcept werd concreter door de route-ervaring uit te werken: gedeelde stops, timers, conversation starters en foto’s die later als gezamenlijke herinneringen terugkomen op het groepsprofiel. Daardoor zag ik beter hoe interactie, sfeer en productwaarde samenkomen in één ervaring.'
       },
       {
         icon: 'book',
@@ -250,11 +244,14 @@ function App() {
             <p>
               Tijdens TLE 3 en TLE 4 heb ik geleerd om nieuwe methodes uit te proberen, ook wanneer ik ze nog niet volledig begrijp. Ik ben visueler gaan onderzoeken, bewuster gaan samenwerken, verantwoordelijker gaan bouwen en beter gaan kijken naar de behoeften van gebruikers. Mijn toolkit is uitgebreid met metaforen tekenen, Make Me Think, backendafstemming, het businessmodel, Jobs to Be Done en de waardepropositie.
             </p>
+            <p>
+              In de vorige TLE kreeg ik meerdere keren de feedback dat ik mij meer op mijn eigen taken moest concentreren. Ik hielp teamgenoten vaak met hun werk, maar daardoor bleef mijn eigen werk soms liggen. Ook gaf ik anderen daardoor minder ruimte om zelf moeilijke taken op te pakken en daarvan te leren. In TLE 4 heb ik geprobeerd deze feedback bewust toe te passen door beter mijn grenzen aan te geven, verantwoordelijkheid te nemen voor mijn eigen taken en teamgenoten eerst zelf naar een oplossing te laten zoeken. Professionele groei betekent voor mij dat ik feedback uit een vorige TLE niet alleen onthoud, maar ook bewust toepas in een volgend project.
+            </p>
           </article>
           <article>
             <h3>Wat ik anders zou doen</h3>
             <p>
-              Bij een volgend project zou ik mijn ontwikkeling eerder en beter vastleggen. Na iedere methode of technische mijlpaal zou ik kort opschrijven wat ik heb gedaan, wat het resultaat was en wat ik de volgende keer anders wil doen. Ook zou ik meer bewijsmateriaal verzamelen, zoals tekeningen, feedback, API-afspraken en verschillende versies van mijn werk.
+              Bij een volgend project zou ik mijn ontwikkeling eerder en beter vastleggen. Na iedere methode of technische mijlpaal zou ik kort opschrijven wat ik heb gedaan, wat het resultaat was en wat ik de volgende keer anders wil doen. Ook zou ik meer bewijsmateriaal verzamelen, zoals tekeningen, feedback en verschillende versies van mijn werk.
             </p>
           </article>
         </div>
